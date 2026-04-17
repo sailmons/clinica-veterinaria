@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="menu">
+
+    <a href="index.html">🏠 Inicio</a>
+
+</nav>
+
+<h2>Citas Médicas</h2>
+
+<img src="img/citas2.jpg" class="imagen-servicio">
+
+<form onsubmit="agendarCita(); return false;">
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="date" id="fecha">
+
+    <button type="submit">Agendar</button>
+</form>
+
+<p id="resultado"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
